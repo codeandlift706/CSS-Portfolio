@@ -1,0 +1,40 @@
+:root {
+    --light: #fff;
+    --texttheme: #000;
+    --theme: #7ca384;
+    --border-radius: 10px;
+}
+
+body {
+display: flex;
+}
+
+nav-bar {
+display: flex;
+}
+
+list-style {
+justify-content: flex-start;
+display: inline;
+padding: 10%;
+background-color: var(--theme);
+color: var(--texttheme);
+}
+
+section {
+    display: flex;
+}
+
+.section h2 {
+    display: block;
+    justify-content: table-row;
+
+}
+
+footer {
+    display: flex;
+}
+
+footer h2 {
+    display: block;
+}
