@@ -1,31 +1,49 @@
 :root {
     --light: #fff;
     --texttheme: #000;
-    --theme: #7ca384;
+    --theme: #92b098;
     --border-radius: 10px;
+    --header-text: cursive, sans-serif;
+    --body-text: fantasy
 }
 
 body {
+font-family: var(--body-text);
+background-color: var(--theme)
+}
+
+.header h1 {
+    font-family: var(--header-text);
+    padding: 2%;
+    border: 2%;
+    margin: 2%;
+    font-size: 75px;
+    display: flex
+}
+
+h1 {
+    font-size: 16%;
+}
+    
+.nav-bar {
 display: flex;
 }
 
-nav-bar {
-display: flex;
-}
+.nav-style {
+    justify-content: flex-start;
+    display: inline;
+    padding: 10%;
+    background-color: var(--theme);
+    color: var(--texttheme);
+    list-style-type: none;
+    }
 
-list-style {
-justify-content: flex-start;
-display: inline;
-padding: 10%;
-background-color: var(--theme);
-color: var(--texttheme);
-}
 
 section {
     display: flex;
 }
 
-.section h2 {
+.h2 {
     display: block;
     justify-content: table-row;
 
