@@ -3,7 +3,7 @@
     --texttheme: #000;
     --theme: #aab0c2;
     --contrast: rgb(135, 135, 173);
-    --border-radius: 10px;
+    --roundedge: 10px;
     --header-text: Spartan, sans-serif;
     --body-text: Spartan, sans-serif;
 }
@@ -51,9 +51,8 @@ display: inline-block;
     display: flex;
 }
 
-.img {
-    border-radius: 15px;
-    max-width:100px;
+img {
+    width: 150px;
 }
 
 .header-text {
@@ -67,4 +66,11 @@ footer {
 
 footer h2 {
     display: block;
+}
+
+@media screen and (min-width: 375px) {
+img {
+    background: var(--theme);
+    border-radius: var(--roundedge);
+}  
 }
