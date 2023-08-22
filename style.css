@@ -1,42 +1,50 @@
 :root {
     --light: #fff;
     --texttheme: #000;
-    --theme: #92b098;
+    --theme: #aab0c2;
+    --contrast: rgb(135, 135, 173);
     --border-radius: 10px;
     --header-text: cursive, sans-serif;
-    --body-text: fantasy
+    --body-text: fantasy;
 }
 
 body {
 font-family: var(--body-text);
-background-color: var(--theme)
 }
 
 .header h1 {
     font-family: var(--header-text);
-    padding: 2%;
-    border: 2%;
-    margin: 2%;
-    font-size: 75px;
-    display: flex
+    padding: 25px;
+    font-size: 50px;
+    margin: -10px;
+    background-color: var(--theme);
 }
 
 h1 {
     font-size: 16%;
+    background-color: var(--theme);
 }
     
 .nav-bar {
-display: flex;
+position: relative;
+margin: -20px;
 }
 
 .nav-style {
-    justify-content: flex-start;
-    display: inline;
     padding: 10%;
-    background-color: var(--theme);
+    background-color: var(--contrast);
     color: var(--texttheme);
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 20px;
     }
+
+li {
+display: inline-block;
+}
+
 
 
 section {
