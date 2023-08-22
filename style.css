@@ -4,8 +4,8 @@
     --theme: #aab0c2;
     --contrast: rgb(135, 135, 173);
     --border-radius: 10px;
-    --header-text: monospace, sans-serif;
-    --body-text: monospace, sans-serif;
+    --header-text: montserrat, sans-serif;
+    --body-text: montserrat, sans-serif;
 }
 
 body {
@@ -47,16 +47,18 @@ li {
 display: inline-block;
 }
 
-
-
-section {
+.h2 {
     display: flex;
 }
 
-.h2 {
+.img {
+    border-radius: 15px;
+    max-width:100px;
+}
+
+.header-text {
     display: block;
     justify-content: table-row;
-
 }
 
 footer {
