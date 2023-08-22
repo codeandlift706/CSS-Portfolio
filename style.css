@@ -57,7 +57,7 @@ img {
 
 .header-text {
     display: block;
-    justify-content: table-row;
+    padding: 8px;
 }
 
 footer {
