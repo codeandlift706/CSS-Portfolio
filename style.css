@@ -4,8 +4,8 @@
     --theme: #aab0c2;
     --contrast: rgb(135, 135, 173);
     --border-radius: 10px;
-    --header-text: cursive, sans-serif;
-    --body-text: fantasy;
+    --header-text: monospace, sans-serif;
+    --body-text: monospace, sans-serif;
 }
 
 body {
@@ -18,11 +18,13 @@ font-family: var(--body-text);
     font-size: 50px;
     margin: -10px;
     background-color: var(--theme);
+    
 }
 
 h1 {
     font-size: 16%;
     background-color: var(--theme);
+    text-align: center;
 }
     
 .nav-bar {
@@ -36,8 +38,8 @@ margin: -20px;
     color: var(--texttheme);
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    gap: 50px;
+    justify-content: center;
+    gap: 70px;
     padding: 20px;
     }
 
