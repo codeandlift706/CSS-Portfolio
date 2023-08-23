@@ -73,6 +73,10 @@ div {
 padding-left: 95px;
 }
 
+img:hover {
+    box-shadow: var(--theme)
+}
+
 footer {
     display: flex;
 }
