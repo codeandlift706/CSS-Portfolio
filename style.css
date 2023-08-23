@@ -99,7 +99,7 @@ height: auto;
 }
 
 
-@media screen and (min-width: 375px;) {
+@media screen and (min-width: 375px) {
 img {
     padding-left:60px;
     margin:5px;
