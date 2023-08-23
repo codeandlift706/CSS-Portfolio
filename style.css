@@ -69,13 +69,19 @@ list-style-type:circle;
     position: absolute;
 }
 
-div {
-padding-left: 95px;
+.h2 img {
+    padding-left: 65px;
 }
 
-img:hover {
-    box-shadow: var(--theme)
+div {
+padding-left: 160px;
 }
+
+/*
+.enlargen:hover {
+width: 500px;
+}
+*/
 
 footer {
     display: flex;
@@ -85,7 +91,15 @@ footer h2 {
     display: block;
 }
 
-@media screen and (min-width: 375px) {
+
+img {
+position: relative;
+max-width: 30%;
+height: auto;
+}
+
+
+@media screen and (min-width: 375px;) {
 img {
     padding-left:60px;
     margin:5px;
