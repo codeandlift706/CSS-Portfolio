@@ -3,13 +3,14 @@
     --texttheme: #000;
     --theme: #aab0c2;
     --contrast: rgb(135, 135, 173);
-    --roundedge: 10px;
+    --roundedge: 30px;
     --header-text: Spartan, sans-serif;
     --body-text: Spartan, sans-serif;
 }
 
 body {
 font-family: var(--body-text);
+background-attachment: fixed;
 }
 
 .header h1 {
@@ -43,21 +44,20 @@ margin: -20px;
     padding: 20px;
     }
 
-li {
-display: inline-block;
+ul {
+display: flex;
+display: block;
+list-style-type:circle;
 }
 
 .h2 {
     display: flex;
+    align-items: center;
 }
 
 img {
     width: 150px;
-}
-
-.header-text {
-    display: block;
-    padding: 8px;
+    margin: 15px;
 }
 
 footer {
