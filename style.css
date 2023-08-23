@@ -3,7 +3,6 @@
     --texttheme: #000;
     --theme: #aab0c2;
     --contrast: rgb(135, 135, 173);
-    --roundedge: 30px;
     --header-text: Spartan, sans-serif;
     --body-text: Spartan, sans-serif;
 }
@@ -54,7 +53,8 @@ list-style-type:circle;
 
 .h2 {
     display: flex;
-    align-items:center;
+    align-items:flex-start;
+
 }
 
 .h2-work-section {
@@ -66,11 +66,7 @@ list-style-type:circle;
 
 .h2-work {
     display:inline;
-}
-
-img {
-    padding:2px;
-    margin:5px;
+    position: absolute;
 }
 
 div {
@@ -87,6 +83,7 @@ footer h2 {
 
 @media screen and (min-width: 375px) {
 img {
-    border-radius: var(--roundedge);
+    padding-left:60px;
+    margin:5px;
 }  
 }
