@@ -94,12 +94,12 @@ footer h2 {
 
 img {
 position: relative;
-max-width: 30%;
+max-width: 60%;
 height: auto;
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 300px) {
 img {
     padding-left:60px;
     margin:5px;
