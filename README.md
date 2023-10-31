@@ -9,7 +9,7 @@
 - [Questions](#questions)
 
 ## Description
-The goal of creating a portfolio web page is to showcase projects, contact information, and share an about me section. The deployed application can be found here: https://codeandlift706.github.io/Portfolio/.
+The goal of creating a portfolio web page is to showcase projects, contact information, and share an about me section. The deployed application can be found here: https://codeandlift706.github.io/CSS-Portfolio/.
 
 ## Installation
 VS Code to create and manipulate HTML and CSS elements for the web page. GitHub for version control and web page deployment.
